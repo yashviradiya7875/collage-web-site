@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Serif:wght@600&family=Tenali+Ramakrishna&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    color: #000000;
+}
+
+h1:after {
+    background: #000000;
+    display: block;
+    height: 3px;
+    width: 550px;
+    margin: 10px auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bordered-img {
+    border: 2px solid black;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.swiper {
+    width: 70%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: white;
+}
+
+
+@media(max-width:867px) {
+
+    .container {
+        width: 100%;
+        display: block;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
